@@ -1,3 +1,13 @@
-body {
-  background: green;
-}
+//Global
+@import "../../node_modules/normalize.css/normalize";
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "variables";
+@import "scaffolding";
+@import "fonts";
+@import "sprite/sprite";
+
+//Blocks
+@import "blocks/container";
+@import "blocks/button";
+@import "blocks/nav.scss";
+@import "blocks/header";

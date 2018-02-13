@@ -3,6 +3,7 @@
 @import "../../node_modules/font-awesome/scss/font-awesome";
 @import "variables";
 @import "scaffolding";
+@import "_mixins/centerer";
 @import "fonts";
 @import "sprite/sprite";
 
@@ -10,5 +11,8 @@
 @import "blocks/container";
 @import "blocks/button";
 @import "blocks/nav.scss";
+@import "blocks/title";
 @import "blocks/header";
-@import "blocks/hero"
+@import "blocks/hero";
+@import "blocks/about";
+@import "blocks/icon.scss";

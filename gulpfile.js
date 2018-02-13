@@ -4,7 +4,7 @@ var gulp         = require('gulp'),
     notify       = require("gulp-notify"),
     sourcemaps   = require('gulp-sourcemaps'),
     spritesmith  = require('gulp.spritesmith'),
-    rimraf       = require('rimraf'),
+    del        = require('del'),
     rename       = require('gulp-rename'),
     autoprefixer = require('gulp-autoprefixer'),
     browserSync  = require('browser-sync').create();
@@ -61,8 +61,8 @@ gulp.task('sprite', function(cb) {
 });
 
 /* ------------ Delete ------------- */
-gulp.task('clean', function del(cb) {
-  return rimraf('build', cb);
+gulp.task('clean', function(cb) {
+  return del('build', cb);
 });
 
 /* ------------ Copy fonts ------------- */

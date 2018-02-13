@@ -25,6 +25,7 @@
 
   &:hover {
     color: lighten($color-text, 20%);
+    text-decoration: underline;
   }
 
   &:first-child {
